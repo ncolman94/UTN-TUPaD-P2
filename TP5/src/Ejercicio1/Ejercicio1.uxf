@@ -1,0 +1,20 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>230</x><y>290</y><w>210</w><h>190</h></coordinates><panel_attributes>Pasaporte
+--
+- numero: int
+- fechaEmision: String
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>620</y><w>210</w><h>190</h></coordinates><panel_attributes>Foto
+--
+- imagen: String
+- formato: String 
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>290</y><w>210</w><h>190</h></coordinates><panel_attributes>Titular
+--
+- nombre: String
+- dni: String 
+- pasporte: Pasaporte
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>390</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=&lt;-&gt;
+m1=1
+m2=1</panel_attributes><additional_attributes>10;10;210;10</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>470</y><w>40</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element></diagram>
